@@ -1,0 +1,89 @@
+td.nao-metal {
+    color: rgb(180, 210, 100);
+    border: 2px solid rgb(180, 210, 100);
+}
+
+.nao-metal {
+    color: rgb(180, 210, 100);
+}
+
+td.semimetal {
+    color: rgb(110, 200, 190);
+    border: 2px solid rgb(110, 200, 190);
+}
+
+.semimetal {
+    color: rgb(110, 200, 190);
+}
+
+td.gas-nobre {
+    color: rgb(100, 180, 225);
+    border: 2px solid rgb(100, 180, 225);
+}
+
+.gas-nobre {
+    color: rgb(100, 180, 225);
+}
+
+td.halogenio {
+    color: rgb(170, 225, 255);
+    border: 2px solid rgb(170, 225, 255);
+}
+
+.halogenio {
+    color: rgb(170, 225, 255);
+}
+
+td.metal-alcalino {
+    color: rgb(245, 200, 100);
+    border: 2px solid rgb(245, 200, 100);
+}
+
+.metal-alcalino {
+    color: rgb(245, 200, 100);
+}
+
+td.metal-alcalino-terroso {
+    color: rgb(240, 230, 90);
+    border: 2px solid rgb(240, 230, 90);
+}
+
+.metal-alcalino-terroso {
+    color: rgb(240, 230, 90);
+}
+
+td.outros-metais {
+    color: rgb(190, 210, 210);
+    border: 2px solid rgb(190, 210, 210);
+}
+
+.outros-metais {
+    color: rgb(190, 210, 210);
+}
+
+td.metal-transicao {
+    color: rgb(245, 175, 175);
+    border: 2px solid rgb(245, 175, 175);
+}
+
+.metal-transicao {
+    color: rgb(245, 175, 175);
+}
+
+td.lantanideo {
+    color: rgb(150, 225, 225);
+    border: 2px solid rgb(150, 225, 225);
+}
+
+.lantanideo {
+    color: rgb(150, 225, 225);
+}
+
+td.actinidio {
+    color: rgb(230, 190, 220);
+    border: 2px solid rgb(230, 190, 220);
+}
+
+.actinidio {
+    color: rgb(230, 190, 220);
+}

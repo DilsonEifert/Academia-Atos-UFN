@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+}
+
+div {
+    margin: 0 auto;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td,
+th {
+    vertical-align: top;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    height: 60px;
+    width: 60px;
+}
+
+td>div>span {
+
+    text-align: left;
+    font-size: 8px;
+    position: relative;
+    left: 4px;
+    top: 4px;
+    color: aqua;
+
+}
+
+h2,
+p {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 10px;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+footer {
+    margin: 10px 0px 20px 0px;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    font-size: 12px;
+}
+
+li::before {
+    content: ' ';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border: 0.125em solid;
+    border-radius: 0.125rem;
+    margin-right: 0.5em;
+    position: relative;
+    top: 0.25em;
+}
+
+.marcador-grupo,
+.table-header>tr>th,
+.separador {
+    border: 2px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+.teste {
+    display: none;
+}
+
+td>div:nth-child(2) {
+    display: none;
+}
+
+td:active>div:nth-child(2) {
+    /*.conteudo1:active {*/
+    display: inline;
+    border: 2px solid white;
+    background-color: rgb(37, 37, 37);
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px rgb(59, 59, 59);
+}
+
+.conteudo1:hover {
+    transform: scale(1.60);
+    overflow: visible;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
