@@ -1,5 +1,20 @@
+:root {
+    --nao-metal: rgba(180, 210, 100, 1);
+    --default: rgba(103, 103, 103, 1);
+    --semimetal: rgba(110, 200, 190, 1);
+    --gas-nobre: rgba(100, 180, 225, 1);
+    --halogenio: rgba(170, 225, 255, 1);
+    --metal-alcalino: rgba(245, 200, 100, 1);
+    --metal-alcalino-terroso: rgba(240, 230, 90, 1);
+    --outros-metais: rgba(190, 210, 210, 1);
+    --metal-transicao: rgba(245, 175, 175, 1);
+    --lantanideo: rgba(150, 225, 225, 1);
+    --actinidio: rgba(230, 190, 220, 1);
+
+}
+
 td.nao-metal {
-    color: rgb(180, 210, 100);
+    color: #b4d264;
     border: 2px solid rgb(180, 210, 100);
 }
 
