@@ -54,10 +54,10 @@ p {
     font-size: 10px;
 }
 
-h2 {
-    font-size: 15px;
+.simbolo {
+    font-size: 20px;
     font-weight: bold;
-    margin-top: 2px;
+    margin-top: 0px;
 }
 
 footer {
@@ -101,6 +101,8 @@ td {
     overflow: scroll;
 }
 
+
+
 td:active>.container>div:nth-child(2) {
     /*.conteudo1:active {*/
     display: inline;
@@ -113,12 +115,42 @@ td:active>.container>div:nth-child(2) {
     left: 40%;
     border-radius: 5px;
     box-shadow: 5px 5px 2px rgb(59, 59, 59);
+    animation-name: slide;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
 }
 
-.conteudo1:hover {
-    transform: scale(1.60);
+@keyframes slide {
+    from {
+        width: 100px;
+    }
+
+    to {
+        width: 300px;
+    }
+
+    100% {}
+}
+
+.container:hover>.conteudo1 {
+    height: 100%;
+    transform: scale(1.00);
     border: 0.5px solid white;
     border-radius: 5px;
+    animation-name: popout;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes popout {
+    from {
+        transform: scale(1.00);
+    }
+
+    to {
+        transform: scale(1.60);
+    }
+
 }
 
 .nao-metal>div>.conteudo1:hover {
@@ -159,4 +191,11 @@ td:active>.container>div:nth-child(2) {
 
 .actinidio>div>.conteudo1:hover {
     background: linear-gradient(150deg, var(--actinidio) 0%, rgba(103, 103, 103, 1) 49%, var(--actinidio) 100%);
+}
+
+table.descricao>tbody tr td.desc_nome,
+table.descricao>tbody tr td.desc_val {
+    font-size: 13px;
+    background-color: rgb(37, 37, 37);
+    height: 10px;
 }
